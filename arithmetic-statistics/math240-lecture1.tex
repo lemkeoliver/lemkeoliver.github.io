@@ -398,6 +398,26 @@
 	
 	\subsection{Important points and discussion}
 	
-	Though there are other proofs of Hilbert irreducibility, the idea of using primes to probe arithmetic objects is ubiquitous and important.  We will see similar ideas throughout this course.  Instead of constantly referring to polynomials, or number fields, or ...., as satisfying congruence conditions $\pmod{p}$, we will typically talk about objects satisfying ``local conditions.''  (RJLO WILL ADD MORE HERE.)
+	Though there are other proofs of Hilbert irreducibility, the idea of using primes to probe arithmetic objects is ubiquitous and important.  We will see similar ideas throughout this course.  Instead of constantly referring to polynomials, or number fields, or whatever, as satisfying congruence conditions $\pmod{p}$ we will typically talk about objects satisfying ``local conditions.'' For example, the condition that a polynomial $f(x) \in \mathbb{Z}[x]$ is irreducible $\pmod{p}$ is a local condition.  Similarly, the condition that a polynomial $f(x)$ have a given factorization type is also a local condition.  It's useful to have this terminology since some of the local conditions we look at in this course will end up being somewhat far from congruence conditions (as you have seen them in discrete math or elementary number theory).  This will be important when we start talking about number fields.  Number fields are defined through irreducible polynomials, but for example it doesn't really make sense to say that the fields $\mathbb{Q}(\sqrt{2})$ and $\mathbb{Q}(\sqrt{-3})$ are congruent $\pmod{5}$ even though their defining polynomials $x^2-2$ and $x^2+3$ are congruent $\pmod{5}$.  They do, however, satisfy the same local condition at $5$.
+	
+	%~ \subsection{References and further reading}
+	
+	%~ \begin{itemize}
+		%~ \item van der Waerden's conjecture:
+			%~ \begin{itemize}
+				%~ \item Bhargava's paper proving the conjecture: \cite{Bhargava-vanderWaerden}
+				%~ \item Other recent papers on the subject: \cite{ChowDietmann-vdw,Dietmann-Probabilistic,Dietmann-,AIM}
+			%~ \end{itemize}
+		%~ \item Papers enumerating other Galois groups:
+			%~ \begin{itemize}
+				%~ \item This is a hard and interesting problem!  For example, how many degree $3$ polynomials are irreducible but have Galois group $A_3$?
+				%~ \item \cite{ChowDietmann-Enumerative,Xiao-A3}
+			%~ \end{itemize}
+		%~ \item Polynomials $\pmod{p}$:
+			%~ \begin{itemize}
+				%~ \item There's a rich analogy between arithmetic statistics over $\mathbb{Z}$ and $\mathbb{Q}$ (as we'll focus on in this course) and that over function fields over finite fields, e.g. $\mathbb{F}_p(t)$ and its coordinate ring $\mathbb{F}_p[t]$.  For example, in this analogy, Lemma \ref{lem:irred-mod-p} is the prime number theorem for $\mathbb{F}_p[t]$.
+				%~ \item These problems become much closer to algebraic geometry.
+			%~ \end{itemize}
+	%~ \end{itemize}
 	
 \end{document}
