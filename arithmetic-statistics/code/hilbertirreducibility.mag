@@ -1,0 +1,26 @@
+function CheckPolynomials(deg, height)
+	_<x>:=PolynomialRing(Integers());
+	N := (2*height+1)^deg; // Number of polynomials
+	
+	Red := 0;
+	Irred := 0;
+	ByGp := [ 0 : i in [1..NumberOfTransitiveGroups(deg)]];
+	
+	for i in [0..N-1] do
+		//Generate coefficients from index
+		f:=Parent(x)!1;
+		a := i;
+		for j in [1..deg] do
+			f:=f*x+((a mod (2*height+1))-height);
+			a := a div (2*height + 1);
+		end for;
+		if IsIrreducible(f) eq true then
+			Irred := Irred+1;
+			k := TransitiveGroupIdentification(GaloisGroup(f));
+			ByGp[k] := ByGp[k]+1;
+		else
+			Red := Red+1;
+		end if;
+	end for;
+	return Irred,Red,ByGp;
+end function;
