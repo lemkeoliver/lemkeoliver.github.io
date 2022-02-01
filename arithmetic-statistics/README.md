@@ -6,4 +6,6 @@ Table of contents:
 
 *: Lecture 1: Integer polynomials and Hilbert irreducibility.
 
-*: Lecture 2: Rings of integers and discriminants.  (In progress)
+*: Lecture 2: Rings of integers and discriminants.
+
+*: Lecture 3: Bounds on number fields and Schmidt's theorem.  (Coming soon!)
