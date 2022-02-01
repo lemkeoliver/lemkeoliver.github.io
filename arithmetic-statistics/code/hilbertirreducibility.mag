@@ -1,3 +1,8 @@
+// To run a function in Magma, you'll want to type something like:
+// CheckPolynomials(4, 10);
+// after the function has been declared.  There is a commented block
+// below that indicates where to do this.
+
 function CheckPolynomials(deg, height)
 	_<x>:=PolynomialRing(Integers());
 	N := (2*height+1)^deg; // Number of polynomials
@@ -24,3 +29,6 @@ function CheckPolynomials(deg, height)
 	end for;
 	return Irred,Red,ByGp;
 end function;
+
+// UNCOMMENT BELOW TO RUN FUNCTION IN CALCULATOR
+// CheckPolynomials(3,5);
