@@ -105,7 +105,7 @@ function GuessInvariantDegree(G)
 	return inv_deg;
 end function;
 
-function FindMinimalInvariants(G : output:=true)
+function FindMinimalInvariants(G : output:=true, trials:=10, height:=10)
 	// Computes a lower bound on the degrees of an independent set of invariants using the Molien series,
 	// then attempts to see if there is a set of independent invariants matching that degree bound.
 	// This is essentially the computation described in the proof of Lemma 4.18
@@ -131,7 +131,7 @@ function FindMinimalInvariants(G : output:=true)
 	if output then
 		print "Trying to find independent invariants with degree bounded by",deg;
 	end if;
-	InvUpperBound := FindIndependentInvariants(G,deg);
+	InvUpperBound := FindIndependentInvariants(G,deg : trials:=trials, height:=height);
 	if output then
 		print "....Done.";
 	end if;
