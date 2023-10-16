@@ -19,7 +19,7 @@ Inside the file "find-invariants.mag", the key functions are:
 
 	Very often this lower bound is the correct answer (especially for primitive groups), and it is useful to do this before calling the function FindIndependentInvariants above, as increasing the parameter d in that function can be very expensive.  However, the list of invariant degrees produced by this function are not verified in any way.
 
-4) FindMinimalInvariants(G)  
+3) FindMinimalInvariants(G)  
 	 Output = [Invariant degrees], success
 	 -----
 	 This function marries the previous two together (e.g., as in the computation described in the proof of Lemma 4.18).  In particular, it first computes a lower bound on the invariant degrees coming from GuessInvariantDegree(G).  It then calls FindIndependentInvariants(G,d), where d is the largest degree seen from the lower bound.  If these two sets of degrees agree, they are provably minimal, and the output is the list of invariant degrees, with success=true.  If these lists do not agree, then it returns [], false.
