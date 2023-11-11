@@ -5,7 +5,7 @@ This folder contains the Magma code needed to verify many of the invariant theor
 - The file `find-invariants.mag` provides many of the workhorse functions, described below.
 - The folder [`receipts/`](receipts/) contains the verification of specific computations quoted in the paper.  Specifically, this includes:
 	- The code verifying Lemma 4.18 (which finds the minimal invariants of the Mathieu groups)
-	- The code verifying Theorem 5.8 (which gives bounds on small degree extensions of number fields)
+	- The code verifying Theorem 5.9 (which gives bounds on small degree extensions of number fields)
 	- The code for, and output of, experiments related to the groups PGL(2,q), PGammaL(2,q), PGL(3,q), and PGammaL(3,q), described in the remark after the proof of Lemma 4.9.
 
 
