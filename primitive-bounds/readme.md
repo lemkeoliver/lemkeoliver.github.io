@@ -11,8 +11,8 @@ This folder contains the Magma code needed to verify many of the invariant theor
 
 Inside the file `find-invariants.mag`, the key functions are:
 
-- FindIndependentInvariants(G,d)  
-	Output = [Invariant degrees], success, corank
+- **FindIndependentInvariants(G,d)  
+	Output = [Invariant degrees], success, corank**
 
 	This computes all G-invariant polynomials of degree up to d, then computes the rank of the partial derivative matrix associated with these invariants, evaluated at a random n-tuple of integers (n being the degree of G) between -*height* and *height*.  (Default: *height*:=10)  
 
