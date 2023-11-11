@@ -11,14 +11,14 @@ This folder contains the Magma code needed to verify many of the invariant theor
 
 Inside the file `find-invariants.mag`, the key functions are:
 
-	1) FindIndependentInvariants(G,d)  
-		Output = [Invariant degrees], success, corank
-		-----  
-		This computes all G-invariant polynomials of degree up to d, then computes the rank of the partial derivative matrix associated with these invariants, evaluated at a random n-tuple of integers (n being the degree of G) between -*height* and *height*.  (Default: *height*:=10)  
+- FindIndependentInvariants(G,d)  
+	Output = [Invariant degrees], success, corank
+	-----  
+	This computes all G-invariant polynomials of degree up to d, then computes the rank of the partial derivative matrix associated with these invariants, evaluated at a random n-tuple of integers (n being the degree of G) between -*height* and *height*.  (Default: *height*:=10)  
 
-		If the matrix has full rank n, the function returns the degrees of the associated invariants (along with *success*=true and *corank*=0).  If the matrix does not have full rank, it recomputes the rank evaluated at a different random tuple, up to *trials* times.  (Default: *trials*:=10)
+	If the matrix has full rank n, the function returns the degrees of the associated invariants (along with *success*=true and *corank*=0).  If the matrix does not have full rank, it recomputes the rank evaluated at a different random tuple, up to *trials* times.  (Default: *trials*:=10)
 
-		If none of these matrices have full rank, the function returns [], *false*, *corank*, where *corank* is n minus the maximum rank seen.
+	If none of these matrices have full rank, the function returns [], *false*, *corank*, where *corank* is n minus the maximum rank seen.
 
 2) GuessInvariantDegree(G)  
 	Output = [Invariant degrees?]
