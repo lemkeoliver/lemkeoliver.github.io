@@ -13,7 +13,7 @@ Inside the file `find-invariants.mag`, the key functions are:
 
 - FindIndependentInvariants(G,d)  
 	Output = [Invariant degrees], success, corank
-	-----  
+
 	This computes all G-invariant polynomials of degree up to d, then computes the rank of the partial derivative matrix associated with these invariants, evaluated at a random n-tuple of integers (n being the degree of G) between -*height* and *height*.  (Default: *height*:=10)  
 
 	If the matrix has full rank n, the function returns the degrees of the associated invariants (along with *success*=true and *corank*=0).  If the matrix does not have full rank, it recomputes the rank evaluated at a different random tuple, up to *trials* times.  (Default: *trials*:=10)
