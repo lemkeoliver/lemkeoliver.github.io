@@ -10,6 +10,7 @@ This folder contains the Magma code needed to verify many of the invariant theor
 
 
 Inside the file `find-invariants.mag`, the key functions are:
+
 	1) FindIndependentInvariants(G,d)  
 		Output = [Invariant degrees], success, corank
 		-----  
