@@ -1,10 +1,15 @@
 ## Code related to the paper, "Uniform exponent bounds on the number of primitive extensions of number fields", by Robert J. Lemke Oliver
 
-This folder contains the Magma code needed to verify many of the invariant theory computations from my paper "Uniform exponent bounds on primitive extensions of number fields."
+This folder contains the Magma code needed to verify many of the invariant theory computations from my paper [*Uniform exponent bounds on primitive extensions of number fields*](https://arxiv.org/abs/2012.14422).  Specifically, it contains the following:
 
-The file "find-invariants.mag" contains many of the workhorse functions, described below.  The folder "receipts" contains the verification of the specific computations quoted in the paper, namely the proofs of Lemma 4.18 (which finds the minimal invariants of the Mathieu groups) and Theorem 5.8 (which gives bounds on small degree extensions of number fields).  It also contains the output of some experiments related to PGL(2,q) and PGL(3,q) outlined in the remark after the proof of Lemma 4.9.
+- The file `find-invariants.mag` contains many of the workhorse functions, described below.
+- The folder [`receipts/`](receipts/) contains the verification of specific computations quoted in the paper.  Specifically, this includes
+	- The code verifying Lemma 4.18 (which finds the minimal invariants of the Mathieu groups)
+	- The code verifying Theorem 5.8 (which gives bounds on small degree extensions of number fields)
+	- The code for, and output of, experiments related to the groups PGL(2,q), PGammaL(2,q), PGL(3,q), and PGammaL(3,q), described in the remark after the proof of Lemma 4.9.
 
-Inside the file "find-invariants.mag", the key functions are:
+
+Inside the file `find-invariants.mag`, the key functions are:
 1) FindIndependentInvariants(G,d)  
 	Output = [Invariant degrees], success, corank
 	-----  
