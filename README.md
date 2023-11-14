@@ -6,4 +6,4 @@ This is the main hub for code related to [Robert J. Lemke Oliver's](https://rlem
 
 - *An approximate form of Artin's holomorphy conjecture and non-vanishing of Artin L-functions*, [arxiv link](https://arxiv.org/abs/2012.14422), [relevant code](approximate-artin/)
 
-- *Uniform exponent bounds on the number of primitive extensions of number fields*, [arxiv link](https://arxiv.org/abs/2012.14422), [relevant code](primitive-bounds/)
+- *Uniform exponent bounds on the number of primitive extensions of number fields*, [arxiv link](https://arxiv.org/abs/2311.06947), [relevant code](primitive-bounds/)

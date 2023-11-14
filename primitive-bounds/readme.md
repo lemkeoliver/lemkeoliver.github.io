@@ -1,6 +1,6 @@
 ## Code related to the paper, "Uniform exponent bounds on the number of primitive extensions of number fields", by Robert J. Lemke Oliver
 
-This folder contains the Magma code needed to verify many of the invariant theory computations from my paper [*Uniform exponent bounds on primitive extensions of number fields*](https://arxiv.org/abs/2012.14422).  Specifically, it includes:
+This folder contains the Magma code needed to verify many of the invariant theory computations from my paper [*Uniform exponent bounds on primitive extensions of number fields*](https://arxiv.org/abs/2311.06947).  Specifically, it includes:
 
 - The file `find-invariants.mag` provides many of the workhorse functions, described below.
 - The folder [`receipts/`](receipts/) contains the verification of specific computations quoted in the paper.  Specifically, this includes:
