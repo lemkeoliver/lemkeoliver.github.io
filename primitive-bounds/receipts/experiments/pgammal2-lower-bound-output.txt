@@ -168,3 +168,15 @@ Working with PGammaL(2, 3721 )
 Time: 32017.760
 
 Working with PGammaL(2, 4096 )
+{* 1, 2, 3, 4^^64, 5^^4030 *}
+Time: 83873.250
+
+Working with PGammaL(2, 4489 )
+{* 1, 2, 3, 4^^397, 5^^4090 *}
+Time: 96222.530
+
+Working with PGammaL(2, 4913 )
+{* 1, 2, 3, 4^^279, 5^^4632 *}
+Time: 154797.670
+
+Total time: 453269.630 seconds, Total memory usage: 1358.12MB
