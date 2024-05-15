@@ -2,7 +2,7 @@
 
 This folder contains the Magma code needed to verify many of the invariant theory computations from my paper [*Uniform exponent bounds on primitive extensions of number fields*](https://arxiv.org/abs/2311.06947).  Specifically, it includes:
 
-- The file `find-invariants.mag` provides many of the workhorse functions, described below.
+- The file [`find-invariants.mag`](find-invariants-mag) provides many of the workhorse functions, described below.
 - The folder [`receipts/`](receipts/) contains the verification of specific computations quoted in the paper.  Specifically, this includes:
 	- The code verifying Lemma 4.18 (which finds the minimal invariants of the Mathieu groups)
 	- The code verifying Theorem 5.9 (which gives bounds on small degree extensions of number fields)
