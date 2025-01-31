@@ -12,4 +12,4 @@ To view this page in the more traditional github tree view, click [here](https:/
 
 - *Enumerating Galois extensions of number fields*, [arxiv link](https://arxiv.org/abs/2406.04033), [relevant code](galois-bounds/)
 
-- *Inductive methods for counting number fields*, [relevant code](inductivemethods/)
+- *Inductive methods for counting number fields*, [arxiv link](https://arxiv.org/abs/2501.18574), [relevant code](inductivemethods/)

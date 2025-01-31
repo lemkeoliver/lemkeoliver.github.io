@@ -2,7 +2,7 @@
 
 To view this page in the traditional github tree view, click [here](https://github.com/lemkeoliver/lemkeoliver.github.io/tree/main/docs/code/inductivemethods).
 
-All references below are to the arxiv version of this paper, available here.
+All references below are to the arxiv version of this paper, available [here](https://arxiv.org/abs/2501.18574).
 
 ### Files
 
