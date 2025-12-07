@@ -1,4 +1,4 @@
-## Robert J. Lemke Oliver's code repository
+## Code related to the paper "Asymptotics for 6-torsion and D_6-extensions", by Koymans, Lemke Oliver, Sofos, and Thorne
 
 This is the main hub for code related to the paper "Asymptotics for 6-torsion and D_6-extensions", available on the arxiv here: arxiv link.
 
