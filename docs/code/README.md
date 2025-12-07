@@ -1,6 +1,6 @@
 ## Robert J. Lemke Oliver's code repository
 
-This is the main hub for code related to [Robert J. Lemke Oliver's](https://rlemke01.math.tufts.edu/) mathematical works.  My papers are available on the [arxiv](https://arxiv.org/search/?query=robert+lemke+oliver&searchtype=author).
+This is the main hub for code related to [Robert J. Lemke Oliver's](https://lemkeoliver.github.io/) mathematical works.  My papers are available on the [arxiv](https://arxiv.org/search/?query=robert+lemke+oliver&searchtype=author).
 
 To view this page in the more traditional github tree view, click [here](https://github.com/lemkeoliver/lemkeoliver.github.io/tree/main/docs/code).
 
@@ -13,3 +13,5 @@ To view this page in the more traditional github tree view, click [here](https:/
 - *Enumerating Galois extensions of number fields*, [arxiv link](https://arxiv.org/abs/2406.04033), [relevant code](galois-bounds/)
 
 - *Inductive methods for counting number fields*, [arxiv link](https://arxiv.org/abs/2501.18574), [relevant code](inductivemethods/)
+
+- *Asymptotics for 6-torsion and D_6-extensions*, arxiv link, [relevant code](sixtorsion-d6/)
