@@ -16,4 +16,4 @@ To view this page in the more traditional github tree view, click [here](https:/
 
 - *Asymptotics for 6-torsion and D_6-extensions*, arxiv link, [relevant code](sixtorsion-d6/)
 
-- *The last prime with a given cycle type*, arxiv link, [relevant code](leastprimecycle/)
+- *The least prime with a given cycle type*, arxiv link, [relevant code](leastprimecycle/)
