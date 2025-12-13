@@ -15,3 +15,5 @@ To view this page in the more traditional github tree view, click [here](https:/
 - *Inductive methods for counting number fields*, [arxiv link](https://arxiv.org/abs/2501.18574), [relevant code](inductivemethods/)
 
 - *Asymptotics for 6-torsion and D_6-extensions*, arxiv link, [relevant code](sixtorsion-d6/)
+
+- *The last prime with a given cycle type*, arxiv link, [relevant code](leastprimecycle/)
