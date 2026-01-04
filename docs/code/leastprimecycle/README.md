@@ -1,6 +1,6 @@
 ## Code related to the paper "The least prime with a given cycle type", by Peter J. Cho, Robert J. Lemke Oliver, and Asif Zaman
 
-This is the main hub for code related to the paper "The least prime with a given cycle type", available on the arxiv here: arxiv link.
+This is the main hub for code related to the paper "The least prime with a given cycle type", available on the arxiv here: [arxiv link](https://arxiv.org/abs/2512.24963).
 
 In particular, this repository contains the code necessary to verify Theorems 2.5, 2.6, 7.1, and 8.1 from that paper.  Here is a description of the files:
 
